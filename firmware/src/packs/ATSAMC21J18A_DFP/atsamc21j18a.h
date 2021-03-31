@@ -228,6 +228,7 @@ void AC_Handler                    ( void );
 void DAC_Handler                   ( void );
 void SDADC_Handler                 ( void );
 void PTC_Handler                   ( void );
+uint64_t test_function(void);
 #endif /* DONT_USE_PREDEFINED_PERIPHERALS_HANDLERS */
 #endif /* !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
 

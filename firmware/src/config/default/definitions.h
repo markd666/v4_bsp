@@ -119,8 +119,8 @@ void SYS_Initialize( void *data );
 // *****************************************************************************
 
 
-uint64_t test_function(void);
-void Reset_Handler(void);
+
+
 
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus
