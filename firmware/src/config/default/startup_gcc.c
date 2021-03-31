@@ -24,7 +24,7 @@
 // DOM-IGNORE-END
 
 #include "definitions.h" /* for potential custom handler names */
-//#include "samd21j18a.h"
+//#include "src/packs/ATSAMC21J18A_DFP/atsamd21j18a.h"
 
 /* Initialize segments */
 extern uint32_t _sfixed;
