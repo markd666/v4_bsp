@@ -71,7 +71,6 @@
 /*   CMSIS DEFINITIONS FOR SAMC21J18A                                         */
 /* ************************************************************************** */
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
-
 /** Interrupt Number Definition */
 typedef enum IRQn
 {
@@ -184,7 +183,6 @@ typedef struct _DeviceVectors
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 #if !defined DONT_USE_PREDEFINED_CORE_HANDLERS
-
 /* CORTEX-M0PLUS exception handlers */
 void Reset_Handler                 ( void );
 void NonMaskableInt_Handler        ( void );
@@ -196,7 +194,6 @@ void SysTick_Handler               ( void );
 
 #if !defined DONT_USE_PREDEFINED_PERIPHERALS_HANDLERS
 /* Peripherals interrupt handlers */
-
 void SYSTEM_Handler                ( void );
 void WDT_Handler                   ( void );
 void RTC_Handler                   ( void );
@@ -228,7 +225,6 @@ void AC_Handler                    ( void );
 void DAC_Handler                   ( void );
 void SDADC_Handler                 ( void );
 void PTC_Handler                   ( void );
-uint64_t test_function(void);
 #endif /* DONT_USE_PREDEFINED_PERIPHERALS_HANDLERS */
 #endif /* !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
 
