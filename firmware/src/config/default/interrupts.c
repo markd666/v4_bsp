@@ -66,6 +66,7 @@ void __attribute__((optimize("-O0"),section(".text.Dummy_Handler"),long_call, no
 {
     while (1)
     {
+      volatile int a = 1;
     }
 }
 /* Device vectors list dummy definition*/
