@@ -42,7 +42,7 @@ int main(void);
 void __libc_init_array(void);
 
 /* Default empty handler */
-void Dummy_Handler(void);
+//void Dummy_Handler(void);
 
 /**
  * \brief This is the code that gets called on processor reset.
